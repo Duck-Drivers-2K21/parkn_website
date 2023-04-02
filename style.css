@@ -14,7 +14,10 @@ body{
 h1#title{
     font-family: "Aharoni", sans-serif;
     color: #06D6A0;
-    font-size: 10vw;
+    font-size: 150px;
+    @media screen only {
+        
+    }
     margin-bottom: 0;
     padding-bottom: 0;
     padding-top: 5vh;
@@ -23,7 +26,7 @@ h1#title{
 
 div#headboard{
     text-align: center;
-    font-size: 2vw;
+    font-size: 20px;
     font-weight: 600;
     padding-top: 0;
     margin-top: 5vh;
@@ -106,7 +109,7 @@ p#mc_text {
     color: #FFD166;
     rotate: 35deg;
     position: absolute;
-    right: 15%;
+    right: 20%;
     top:10%;
     text-shadow: 2px 2px #073B4C;
 }
@@ -126,3 +129,16 @@ p#mc_text {
         transform: scale(0.6);
       }
   }
+
+  @media only screen and (max-width: 767px) {  
+    div.content {
+        width: 80vw;
+    }
+    p#mc_text {
+        display: none;
+    }
+    img#duck{
+        display: none;
+    }
+
+}
