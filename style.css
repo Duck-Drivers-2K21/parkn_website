@@ -138,7 +138,12 @@ p#mc_text {
         width: 80vw;
     }
     p#mc_text {
-        display: none;
+        top: 10px;
+        left: 0;
+        width: 100%;
+        /* margin-left: 50%; */
+        /* transform: translateX(-50%); */
+        rotate: 0deg;
     }
     img#duck{
         display: none;
