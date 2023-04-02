@@ -130,7 +130,10 @@ p#mc_text {
       }
   }
 
-  @media only screen and (max-width: 767px) {  
+  @media only screen and (max-width: 767px) { 
+    h1#title{
+        font-size: 100px;
+    }
     div.content {
         width: 80vw;
     }
